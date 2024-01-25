@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&family=Ubuntu+Mono&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Syne Mono', monospace;
+}
+
+#container {
+    display: flex;
+    width: 100vw;
+}
+
+#main {
+    background-color: skyblue;
+    color: green;
+    border: 2px solid blue;
+    border-radius: 50px;
+    line-height: 25px;
+    flex: 1;
+}
+
+.images {
+    flex-basis: 20%;
+}
+
+q {
+    display: block;
+    text-align: center;
+    font-style: italic;
+}
+
+#title, #figure {
+    text-align: center;
+}
+
+#main > * {
+    margin: 20px;
+}
+
+#figure {
+    margin: 0;
+    padding: 20px;
+}
+
+figcaption, q, p, .statues {
+    padding-top: 20px;
+}
+
+.statues > ul {
+    margin-top: 20px;
+    list-style: none;
+}
+
+#main img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 40px;
+    width: 75%;
+}
+
+p {
+    text-align: justify;
+}
